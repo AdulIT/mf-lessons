@@ -45,27 +45,33 @@ a, i
     align-items: center;
 }
 
-.footer__social:hover:nth-child(1)
+.footer__social-icon
+{
+    padding: 30px;
+    transition: color .6s ease-in-out;
+}
+
+.footer__social-icon:hover > i[class*="twitter"]
 {
     color:hsla(200, 88%, 53%) !important;
 }
 
-.footer__social:hover:nth-child(2)
+.footer__social-icon:hover > i[class*="facebook"]
 {
     color:hsla(227, 78%, 60%) !important;
 }
 
-.footer__social:hover:nth-child(3)
+.footer__social-icon:hover > i[class*="instagram"]
 {
     color:rgb(233, 62, 227) !important;
 }
 
-.footer__social:hover:nth-child(4)
+.footer__social-icon:hover > i[class*="dribbble"]
 {
     color:rgb(233, 62, 119) !important;
 }
 
-.footer__social:hover:nth-child(5)
+.footer__social-icon:hover > i[class*="behance"]
 {
     color:rgb(38, 47, 234) !important;
 }
@@ -112,5 +118,5 @@ a, i
 
 @media screen and (max-width: 767px)
 {
-    
+
 }
